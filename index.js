@@ -5,7 +5,7 @@ const API_KEY =
     process.env.API_KEY || "7960859804:AAFKOnSrj0JLSOEzEWZbN2x7_EhuoW3_QUY";
 const bot = new TelegramBot(API_KEY, { polling: true });
 
-const domain = "sabong888.co";
+const domain = "sabong888.net";
 const website = "SABONG888";
 const telegram_url = "https://t.me/SaBong888_Official";
 const telegram_username = "SaBong888_Official";
@@ -31,7 +31,7 @@ function handleContactCommand(chatId) {
         reply_markup: {
             inline_keyboard: [
                 [
-                    { text: "👩‍💻ផ្នែកសេវាកម្ម 24/7", url: telegram_url }
+                    { text: "👩‍💻ផ្នែកសេវាកម្ម 24/7", url: "https://t.me/SaBong888_Official" }
                 ],
                 [   
                     { text: "ការផ្តល់ជូនពិសេស", callback_data: "promo_big" } 
